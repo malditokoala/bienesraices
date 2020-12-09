@@ -240,3 +240,44 @@ flex-basis: calc(60% - 3rem);
 .texto-entrada span {
   color: #e08709;
 }
+/*** Testimonial ***/
+.testimonial {
+  background-color: #71b100;
+  font-size: 2.4rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  color: #ffffff;
+}
+.testimonial p {
+  text-align: right;
+}
+.testimonial blockquote::before {
+  content: '';
+  background-image: url(../img/comilla.svg) ;
+  width: 4rem;
+ height: 4rem;
+ position: absolute; /* Elemnto hijo*/
+ top:0px;
+ left: -2rem;
+}
+.testimonial blockquote {
+  position: relative; /* Elemnto padre*/
+  padding-left: 5rem;
+  font-weight: 300;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #333333;
+  margin:0;
+}
+.contenedor-footer {
+  padding: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.copyright{
+  margin: 0;
+  color: #ffffff;
+}
