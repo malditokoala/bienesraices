@@ -15,4 +15,4 @@ function calculateTotal() {
 let x;
 console.log(x); // output: undefined
 
-let y = z + 1; // ReferenceError: z is not defined
+let y = z + // ReferenceError: z is not defined
